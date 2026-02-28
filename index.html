@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="popup">
+            <span class="exit">X</span>
+            <h3 class="title"></h3>
+            <br>
+            <p class="message">Well done on your incredible achievement! Your hard work has paid off.</p>
+
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name"><img src="logo.png" alt=""></div>
+            <div class="category">
+                <img src="category.png" alt="">  <span>  </span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+        
+                    </div>
+                </div>
+                <div class="letters-guess"></div>
+            </div>
+            <div class="letters"></div>
+        </div>
+        <hr>
+      <audio src="freesound_community-success-1-6297.mp3" class="succes"></audio> 
+      <audio src="universfield-error-010-206498.mp3" class="fill"></audio> 
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
